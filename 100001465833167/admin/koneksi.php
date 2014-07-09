@@ -1,5 +1,5 @@
 <?php
-  // jika penulisannya rapi maka akan semakin mudah di mengerti ^.^v
+	// jika penulisannya rapi maka akan semakin mudah di mengerti ^.^v
 	$server		= "localhost";
 	$user		= "root";
 	$password	= "";
