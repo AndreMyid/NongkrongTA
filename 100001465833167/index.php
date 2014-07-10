@@ -35,6 +35,7 @@
 				$date = date('d-m-Y');
 				$time = gmdate('H:i:s', time()+60*60*7);
 
+				// melakukan pengecekan Session email dan password
 				if (!empty($_SESSION['email']) and !empty($_SESSION['password']))
 					{
 				?>
@@ -45,7 +46,7 @@
 						<br />
 				<?php	
 					}
-				else
+				else //
 					{
 						include "member_login.php";
 					}
